@@ -1,0 +1,13 @@
+Access time for array[0*4096]: 810 CPU cycles
+Access time for array[1*4096]: 473 CPU cycles
+Access time for array[2*4096]: 456 CPU cycles
+Access time for array[3*4096]: 191 CPU cycles
+Access time for array[4*4096]: 961 CPU cycles
+Access time for array[5*4096]: 885 CPU cycles
+Access time for array[6*4096]: 764 CPU cycles
+Access time for array[7*4096]: 114 CPU cycles
+Access time for array[8*4096]: 476 CPU cycles
+Access time for array[9*4096]: 508 CPU cycles
+
+
+Above data with 100 rounds implies a threshold of 250
