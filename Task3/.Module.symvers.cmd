@@ -1,0 +1,1 @@
+cmd_/home/ethan/Documents/Git/IntelMeltdown/Task3/Module.symvers := sed 's/ko$$/o/' /home/ethan/Documents/Git/IntelMeltdown/Task3/modules.order | scripts/mod/modpost -m    -o /home/ethan/Documents/Git/IntelMeltdown/Task3/Module.symvers -e -i Module.symvers   -T -
