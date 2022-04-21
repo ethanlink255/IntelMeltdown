@@ -33,7 +33,7 @@ void process(int* data){
 int main(int argc, const char **argv) {
     int* cumulative = malloc(10 * sizeof(int));
 
-    for(int i = 0; i < 100; i++) {
+    for(int i = 0; i < 1000; i++) {
         int* run = malloc(10 * sizeof(int));
         process(run);
         for(int j = 0; j < 10; j++) cumulative[j] += run[j];
@@ -41,5 +41,5 @@ int main(int argc, const char **argv) {
         free(run);
     }
 
-    for(int i = 0; i < 10; i++) printf("Access time for array[%d*4096]: %d CPU cycles\n",i, (int)(cumulative[i]/100));
+    for(int i = 0; i < 10; i++) printf("Access time for array[%d*4096]: %d CPU cycles\n",i, (int)(cumulative[i]/1000));
 }
